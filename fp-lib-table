@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name kicadlib)(type KiCad)(uri "$(KIPRJMOD)/kicadlib/kicadlib.pretty")(options "")(descr "Noah's kicadlib"))
+  (lib (name Connector_IDC_Custom)(type KiCad)(uri ${KIPRJMOD}/Connector_IDC_Custom.pretty)(options "")(descr ""))
 )
