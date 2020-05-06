@@ -33,7 +33,7 @@ F 0 "J1" H 3371 4896 50  0000 R CNN
 F 1 "Conn_ARM_JTAG_SWD_20" H 3371 4805 50  0000 R CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_2x10_P2.54mm_Vertical" H 4350 3800 50  0001 L TNN
 F 3 "http://infocenter.arm.com/help/topic/com.arm.doc.dui0499b/DUI0499B_system_design_reference.pdf" V 3550 3600 50  0001 C CNN
-F 4 "SFH11-PBPC-D10-RA-BK" H 3900 4850 50  0001 C CNN "Manufacturer Part Number"
+F 4 "SFH11-PBPC-D10-ST-BK" H 3900 4850 50  0001 C CNN "Manufacturer Part Number"
 	1    3900 4850
 	1    0    0    -1  
 $EndComp
@@ -262,6 +262,7 @@ F 0 "R3" H 9270 3046 50  0000 L CNN
 F 1 "330R" H 9270 2955 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9130 3000 50  0001 C CNN
 F 3 "~" H 9200 3000 50  0001 C CNN
+F 4 "CR0805-JW-331ELF" H 9200 3000 50  0001 C CNN "Manufacturer Part Number"
 	1    9200 3000
 	1    0    0    -1  
 $EndComp
