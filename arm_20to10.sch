@@ -57,6 +57,7 @@ F 0 "C1" H 4315 2096 50  0000 L CNN
 F 1 "1uC" H 4315 2005 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4238 1900 50  0001 C CNN
 F 3 "~" H 4200 2050 50  0001 C CNN
+F 4 "CC0805MKX7R7BB105" H 4200 2050 50  0001 C CNN "Manufacturer Part Number"
 	1    4200 2050
 	1    0    0    -1  
 $EndComp
@@ -68,6 +69,7 @@ F 0 "C2" H 5865 2096 50  0000 L CNN
 F 1 "1uC" H 5865 2005 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5788 1900 50  0001 C CNN
 F 3 "~" H 5750 2050 50  0001 C CNN
+F 4 "CC0805MKX7R7BB105" H 5750 2050 50  0001 C CNN "Manufacturer Part Number"
 	1    5750 2050
 	1    0    0    -1  
 $EndComp
@@ -88,9 +90,10 @@ L Device:R R1
 U 1 1 5EB14C03
 P 3500 2050
 F 0 "R1" H 3570 2096 50  0000 L CNN
-F 1 "R" H 3570 2005 50  0000 L CNN
+F 1 "330R" H 3570 2005 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3430 2050 50  0001 C CNN
 F 3 "~" H 3500 2050 50  0001 C CNN
+F 4 "CR0805-JW-331ELF" H 3500 2050 50  0001 C CNN "Manufacturer Part Number"
 	1    3500 2050
 	1    0    0    -1  
 $EndComp
@@ -99,9 +102,10 @@ L Device:R R2
 U 1 1 5EB14F78
 P 7000 2150
 F 0 "R2" H 7070 2196 50  0000 L CNN
-F 1 "R" H 7070 2105 50  0000 L CNN
+F 1 "330R" H 7070 2105 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6930 2150 50  0001 C CNN
 F 3 "~" H 7000 2150 50  0001 C CNN
+F 4 "CR0805-JW-331ELF" H 7000 2150 50  0001 C CNN "Manufacturer Part Number"
 	1    7000 2150
 	1    0    0    -1  
 $EndComp
@@ -112,7 +116,8 @@ P 3500 2400
 F 0 "D1" V 3539 2283 50  0000 R CNN
 F 1 "LED" V 3448 2283 50  0000 R CNN
 F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3500 2400 50  0001 C CNN
-F 3 "~" H 3500 2400 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Dialight%20PDFs/598_Series_0805_Pkg.pdf" H 3500 2400 50  0001 C CNN
+F 4 "5988120107F" H 3500 2400 50  0001 C CNN "Manufacturer Part Number"
 	1    3500 2400
 	0    -1   -1   0   
 $EndComp
@@ -164,7 +169,8 @@ P 7000 2500
 F 0 "D2" V 7039 2383 50  0000 R CNN
 F 1 "LED" V 6948 2383 50  0000 R CNN
 F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7000 2500 50  0001 C CNN
-F 3 "~" H 7000 2500 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Dialight%20PDFs/598_Series_0805_Pkg.pdf" H 7000 2500 50  0001 C CNN
+F 4 "5988120107F" H 7000 2500 50  0001 C CNN "Manufacturer Part Number"
 	1    7000 2500
 	0    -1   -1   0   
 $EndComp
